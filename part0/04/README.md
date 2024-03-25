@@ -19,7 +19,6 @@
     deactivate server
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
-    server-->>browser: Send data.json, Response body: [{ "content": "HTML is easy", "date": "2023-1-1" }, ... ]
+    server-->>browser: Send data.json
     deactivate server
-
 ```
